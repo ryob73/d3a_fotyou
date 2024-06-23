@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
+body {
+    text-align: right;
+}
+li {
+    list-style-type: none;
+    font-family: 'Amiri', serif;
+    counter-reset: section;
+    counter-increment: section;
+    margin-bottom: 9px;
+    content: counter(section) ". ";
+    color: rgb(100, 180, 24);
+}
+h3 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h1 {
+    font-family: 'Segoe UI',sans-serif;
+}
+footer {
+    text-align: left;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
